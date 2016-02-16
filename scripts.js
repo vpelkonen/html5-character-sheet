@@ -21,4 +21,19 @@
     }
 }());
 
-// Place any jQuery/helper plugins in here.
+
+var readyStateCheckInterval = setInterval(function() {
+    if (document.readyState === "complete") {
+        clearInterval(readyStateCheckInterval);
+        init();
+    }
+}, 10);
+
+var init = function(){
+    // Disable all inputs for now
+    var inputs = document.getElementsByTagName('input');
+    for(var i=0; i < inputs.length; i++){
+        inputs[i].setAttribute('disabled','true');
+    }
+
+}

@@ -3,50 +3,147 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Destiny RPG: Witcher Character Sheet</title>
-        <meta name="description" content="A printable character sheet for Destiny RPG: Witcher.">
+        <title>Destiny RPG: Character Sheet</title>
+        <meta name="description" content="A printable character sheet for Destiny RPG.">
+        <link href='https://fonts.googleapis.com/css?family=Merriweather|Uncial+Antiqua' rel='stylesheet' type='text/css'>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="main.css">
     </head>
     <body>
-
-        <header>HEADER - BRANDING</header>
+    <page size="A4">
         <main role="main">
-            <form>
-                <h1>TITLE</h1>
-                <section class="profile">
-                    <h2>Profile</h2>
-                    <p></p>
+            <h1>Destiny RPG</h1>
+            <h3>Character Sheet <span>v1.0</span></h3>
+
+            <section class="profile">
+                <h2>Profile</h2>
+                <div class="leftCol">
+                    <p>Name</p> <input/>
+                    <p>Archetype</p> <input/>
+                    <p>School</p> <input/>
+                    <p>Mentor</p> <input/>
+                </div>
+                <div class="rightCol">
+                    <p>Destiny</p> <input/>
+                    <p>Vision</p> <input/>
+                    <p>Quest</p> <input/>
+                    <p>Prana</p> <input class="prana"/>
+                    <p class="karma-description">Karma</p> <input class="karma"/>
+                </div>
+            </section>
+
+            <div class="leftCol">
+                <section class="traits">
+                    <h2>Traits</h2>
+                    <input class="trait"/>
+                    <input class="trait"/>
+                    <input class="trait"/>
+                    <input class="trait"/>
+                    <input class="trait"/>
                 </section>
-            </form>
+
+                <section class="conditions">
+                    <h2>Conditions</h2>
+                    <div class="condition">
+                        <input class="condition-name"/>
+                        <div class="score"></div><div class="score"></div><div class="score"></div><div class="score" style="visibility:hidden;"></div><div class="treated"></div>
+                    </div>
+                    <div class="condition">
+                        <input class="condition-name"/>
+                        <div class="score"></div><div class="score"></div><div class="score"></div><div class="score" style="visibility:hidden;"></div><div class="treated"></div>
+                    </div>
+                    <div class="condition">
+                        <input class="condition-name"/>
+                        <div class="score"></div><div class="score"></div><div class="score"></div><div class="score" style="visibility:hidden;"></div><div class="treated"></div>
+                    </div>
+                    <div class="condition">
+                        <input class="condition-name"/>
+                        <div class="score"></div><div class="score"></div><div class="score"></div><div class="score" style="visibility:hidden;"></div><div class="treated"></div>
+                    </div>
+                    <div class="condition">
+                        <input class="condition-name"/>
+                        <div class="score"></div><div class="score"></div><div class="score"></div><div class="score" style="visibility:hidden;"></div><div class="treated"></div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="rightCol">
+                <section class="abilities">
+                    <h2>Abilities</h2>
+                    <div class="ability">
+                        <input class="ability-name"/>
+                        <div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div>
+                    </div>
+                    <div class="ability">
+                        <input class="ability-name"/>
+                        <div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div>
+                    </div>
+                    <div class="ability">
+                        <input class="ability-name"/>
+                        <div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div>
+                    </div>
+                    <div class="ability">
+                        <input class="ability-name"/>
+                        <div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div>
+                    </div>
+                    <div class="ability">
+                        <input class="ability-name"/>
+                        <div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div>
+                    </div>
+                    <div class="ability">
+                        <input class="ability-name"/>
+                        <div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div>
+                    </div>
+                    <div class="ability">
+                        <input class="ability-name"/>
+                        <div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div>
+                    </div>
+                    <div class="ability">
+                        <input class="ability-name"/>
+                        <div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div>
+                    </div>
+                    <div class="ability">
+                        <input class="ability-name"/>
+                        <div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div>
+                    </div>
+                    <div class="ability">
+                        <input class="ability-name"/>
+                        <div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div>
+                    </div>
+                    <div class="ability">
+                        <input class="ability-name"/>
+                        <div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div>
+                    </div>
+                    <div class="ability">
+                        <input class="ability-name"/>
+                        <div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div>
+                    </div>
+                    <div class="ability">
+                        <input class="ability-name"/>
+                        <div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div>
+                    </div>
+                </section>
+            </div>
+            <div class="leftCol">
+                <section class="gear">
+                    <h2>Gear</h2>
+                    <textarea></textarea>
+                </section>
+            </div>
+            <div class="rightCol">
+                <section class="special">
+                    <h2>Special</h2>
+                    <textarea></textarea>
+                </section>
+            </div>
+
         </main>
-        <footer></footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <footer>
+            <div class="copyright">Permission granted for personal use. &copy; 2016 Ville Pelkonen</div>
+        </footer>
+        </page>
 
         <script src="scripts.js"></script>
         <script>
