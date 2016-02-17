@@ -98,7 +98,7 @@ textarea {
 /* Page frame */
 body {
     background: rgb(204,204,204);
-    font-size:14px;
+    font-size:13px;
     font-family: 'Merriweather', serif;
     color:#131313;
 }
@@ -118,6 +118,7 @@ page[size="A4"] {
     body, page[size="A4"] {
         margin: 0;
         box-shadow: 0;
+        font-size:13pt;
     }
 }
 
@@ -127,8 +128,8 @@ h1,h2,h3,h4{
     font-family: 'Uncial Antiqua', 'Merriweather', serif;
 }
 h2{
-    margin:1.54em 0 1em 0;
-    border-bottom: 3px solid #111;
+    margin:1.3em 0 .67em 0;
+    border-bottom: 2px solid #111;
 }
 p, input{
     margin: .23rem 0;
@@ -151,11 +152,11 @@ textarea{
 }
 
 .score{
-    height:10px;
-    width:10px;
+    height: 9px;
+    width: 9px;
     border-radius: 50%;
     display: inline-block;
-    margin: 0 2px;
+    margin: 0 2px 4px 2px;
     vertical-align: middle;
     border: 2px solid #111;
 }
@@ -181,18 +182,19 @@ ul{
 .leftCol{
     vertical-align: top;
     display: inline-block;
-    width:47%;
-    margin:0 3% 0 0;
+    width:48%;
+    margin:0 1.5% 0 0;
 }
 .rightCol{
     vertical-align: top;
     display:inline-block;
-    width:47%;
+    width:48%;
+    margin:0 0 0 1.5%;
 }
 
 
 .profile h2{
-    max-width: 47%;
+    max-width: 48%;
 }
 .profile p{
     display: inline-block;
@@ -217,7 +219,8 @@ ul{
 
 .condition-name,
 .ability-name{
-    width:71%;
+    width:72%;
+    margin-right: 1%;
 }
 
 .gear h2,
