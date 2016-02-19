@@ -128,7 +128,7 @@ h1,h2,h3,h4{
     font-family: 'Uncial Antiqua', 'Merriweather', serif;
 }
 h2{
-    margin:1.3em 0 .67em 0;
+    margin:1.1em 0 .67em 0;
     border-bottom: 2px solid #111;
 }
 p, input{
@@ -182,14 +182,14 @@ ul{
 .leftCol{
     vertical-align: top;
     display: inline-block;
-    width:48%;
-    margin:0 1.5% 0 0;
+    width:47%;
+    margin:0 2.25% 0 0;
 }
 .rightCol{
     vertical-align: top;
     display:inline-block;
-    width:48%;
-    margin:0 0 0 1.5%;
+    width:47%;
+    margin:0 0 0 2.25%;
 }
 
 
@@ -205,28 +205,38 @@ ul{
     width:73%;
 }
 
-.profile .prana,
-.profile .karma{
-    width:22.5%;
-}
-.profile .karma-description{
-    text-align: center;
-}
-
 .trait{
     width:100%;
 }
-
-.condition-name,
-.ability-name{
-    width:72%;
-    margin-right: 1%;
+.condition-spirit,
+.special-karma{
+    float:right;
+}
+.condition-body p,
+.special-prana p{
+    margin:12px 12px 12px 0;
+    display: inline-block;
+}
+.condition-spirit p,
+.special-karma p{
+    margin:12px 12px 12px 0;
+    display: inline-block;
+}
+.condition-name{
+    width:100%;
 }
 
-.gear h2,
-.special h2{
-    border:none;
-    margin-bottom:0;
+.ability-name{
+    width:70%;
+    margin-right: 2%;
+}
+
+.gear input,
+.special input{
+    width: 100%;
+}
+.gear-coin{
+    margin:.46em 0 0 0;
 }
 
 footer{
@@ -255,7 +265,7 @@ footer{
 
 /* ==========================================================================
    Helper classes
-   ========================================================================== */
+   ========================================================================== 
 
 /*
  * Hide visually and from screen readers

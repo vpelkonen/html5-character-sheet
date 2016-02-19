@@ -21,7 +21,6 @@
                 <h2>Profile</h2>
                 <div class="leftCol">
                     <p>Name</p> <input/>
-                    <p>Archetype</p> <input/>
                     <p>School</p> <input/>
                     <p>Mentor</p> <input/>
                 </div>
@@ -29,8 +28,6 @@
                     <p>Destiny</p> <input/>
                     <p>Vision</p> <input/>
                     <p>Quest</p> <input/>
-                    <p>Prana</p> <input class="prana"/>
-                    <p class="karma-description">Karma</p> <input class="karma"/>
                 </div>
             </section>
 
@@ -44,28 +41,23 @@
                     <input class="trait"/>
                 </section>
 
-                <section class="conditions">
-                    <h2>Conditions</h2>
-                    <div class="condition">
-                        <input class="condition-name"/>
-                        <div class="score"></div><div class="score"></div><div class="score"></div><div class="score" style="visibility:hidden;"></div><div class="treated"></div>
+                <section class="condition">
+                    <h2>Condition</h2>
+                    <div class="leftCol">
+                        <div class="condition-body">
+                            <p>Body</p>
+                            <div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div>
+                        </div>
                     </div>
-                    <div class="condition">
-                        <input class="condition-name"/>
-                        <div class="score"></div><div class="score"></div><div class="score"></div><div class="score" style="visibility:hidden;"></div><div class="treated"></div>
+                    <div class="rightCol">
+                        <div class="condition-spirit">
+                            <p>Spirit</p>
+                            <div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div>
+                        </div>
                     </div>
-                    <div class="condition">
-                        <input class="condition-name"/>
-                        <div class="score"></div><div class="score"></div><div class="score"></div><div class="score" style="visibility:hidden;"></div><div class="treated"></div>
-                    </div>
-                    <div class="condition">
-                        <input class="condition-name"/>
-                        <div class="score"></div><div class="score"></div><div class="score"></div><div class="score" style="visibility:hidden;"></div><div class="treated"></div>
-                    </div>
-                    <div class="condition">
-                        <input class="condition-name"/>
-                        <div class="score"></div><div class="score"></div><div class="score"></div><div class="score" style="visibility:hidden;"></div><div class="treated"></div>
-                    </div>
+                    <input class="condition-name"/>
+                    <input class="condition-name"/>
+                    <input class="condition-name"/>
                 </section>
             </div>
 
@@ -120,22 +112,63 @@
                         <input class="ability-name"/>
                         <div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div>
                     </div>
-                    <div class="ability">
-                        <input class="ability-name"/>
-                        <div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div>
-                    </div>
                 </section>
             </div>
             <div class="leftCol">
-                <section class="gear">
-                    <h2>Gear</h2>
-                    <textarea></textarea>
+                <section class="special">
+                    <h2>Special</h2>
+                    <div class="leftCol">
+                        <input />
+                        <input />
+                        <input />
+                        <input />
+                        <input />
+                        <input />
+                        <input />
+                        <div class="special-prana">
+                            <p>Prana</p>
+                            <div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div>
+                        </div>
+                    </div>
+                    <div class="rightCol">
+                        <input />
+                        <input />
+                        <input />
+                        <input />
+                        <input />
+                        <input />
+                        <input />
+                        <div class="special-karma">
+                            <p>Karma</p>
+                            <div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div><div class="score"></div>
+                        </div>
+                    </div>
                 </section>
             </div>
             <div class="rightCol">
-                <section class="special">
-                    <h2>Special</h2>
-                    <textarea></textarea>
+                <section class="gear">
+                    <h2>Gear</h2>
+                    <div class="leftCol">
+                        <input />
+                        <input />
+                        <input />
+                        <input />
+                        <input />
+                        <input />
+                        <input />
+                        <input />
+                    </div>
+                    <div class="rightCol">
+                        <input />
+                        <input />
+                        <input />
+                        <input />
+                        <input />
+                        <input />
+                        <input />
+                        <p class="gear-coin">Coin</p>
+                        </div>
+                    </div>
                 </section>
             </div>
 
